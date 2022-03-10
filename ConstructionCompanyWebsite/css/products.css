@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@1,500;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    background-color: rgb(253, 255, 246);
+    text-align: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.custom-link {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 30px;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: -100%;
+    height: 1px;
+    background-color: whitesmoke;
+    transition: .2s linear;
+}
+
+.custom-link:hover::after {
+    left: 0;
+}
+
+
+header {
+    height: 40vh;
+    background-image: url("../img/products_img/bannerproducts.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    border-top: 1px solid rgb(158, 158, 158);
+    font-size: 16px;
+}
+
+.foot-icons {
+    font-size: 30px;
+}
+
+.foot-icons .fa-facebook-square {
+    color: #4267B2;
+}
+
+.foot-icons .fa-instagram-square {
+    color: #fb3958;
+}
+
+.foot-icons .fa-linkedin {
+    color: #0077b5;
+}
+
+.infoBox1 h5 {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #003366;
+    font-weight: 700;
+}
+
+.infobox1 img {
+    height: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    object-fit: contain;
+
+}
+
+.infoBox2 h5 {
+    font-size: 23px;
+    color: #003366;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.infoBox1 {
+    background-color: rgb(236, 236, 230);
+    border-radius: 4px;
+    border: 3px solid;
+    border-color: #003366;
+    margin-top: 60px;
+}
+
+.infoBox2 {
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(236, 236, 230);
+    border-radius: 4px;
+    border: 3px solid;
+    border-color: #003366;
+    margin-top: 60px;
+}
+
+.infoBox2 p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.sendButton {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #003366;
+}
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:576px) {}
